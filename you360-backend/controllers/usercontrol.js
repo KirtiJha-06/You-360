@@ -1,7 +1,7 @@
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import UserEntry from '../models/userentry.js';
-import User from '../models/User.js';
+import User from '../models/user.js';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'your_jwt_secret';
 
